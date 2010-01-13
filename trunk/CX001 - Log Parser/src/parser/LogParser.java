@@ -1,12 +1,19 @@
 package parser;
 
-import java.io.*;
-import java.awt.*; 
-import java.util.*;
-import java.text.*;
-import javax.swing.*;
-import java.awt.event.*;  
-import javax.swing.event.*;
+import java.awt.Color;
+import java.awt.Component;
+import java.awt.GridBagConstraints;
+import java.awt.GridBagLayout;
+import java.awt.GridLayout;
+import java.awt.Insets;
+
+import javax.swing.JFrame;
+import javax.swing.JLabel;
+import javax.swing.JList;
+import javax.swing.JOptionPane;
+import javax.swing.JPanel;
+import javax.swing.JScrollPane;
+import javax.swing.ListCellRenderer;
 
 public class LogParser
 {
@@ -228,9 +235,4 @@ public class LogParser
               return this;
           }
      }
-     
-     
-     public static void main(String args[]){
-          LogParser jf = new LogParser();
-     }  
 }
