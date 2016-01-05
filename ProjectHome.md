@@ -1,0 +1,1 @@
+Parses log generated from PLANET SG-500 router.
